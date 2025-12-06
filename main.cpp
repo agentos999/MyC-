@@ -1,6 +1,12 @@
 #include <iostream>
+using namespace std;
+
+void GreetUser(const string& name) {
+    cout << "Hello, " << name << "!" << endl;
+}
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    cout << "Hello, World!" << endl;
+    GreetUser("User");
     return 0;
 }
