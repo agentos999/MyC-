@@ -6,7 +6,7 @@ void GreetUser(const string& name) {
 }
 
 int main() {
-    cout << "Hello, World!" << endl;
+    cout << "Hello!" << endl;
     GreetUser("User");
     return 0;
 }
